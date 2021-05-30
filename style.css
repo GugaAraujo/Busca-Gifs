@@ -78,12 +78,6 @@ input{
     height:50px;
     width: 50%;
 }
-@media (min-width:300px) and (max-width:1200px) {
-    input{
-        padding-left: 10px;
-        font-size: 14px;
-    }
-}
 ::placeholder {
     color: rgb(100, 98, 98);
 }
@@ -100,4 +94,13 @@ button {
 }
 p {
     color: white;
+}
+@media (min-width:300px) and (max-width:1200px) {
+    input{
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .card{
+        width: 45%;
+    }
 }
